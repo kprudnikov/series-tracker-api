@@ -1,0 +1,17 @@
+{
+  "name": "movie",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "mdbId":{
+      "type": "string",
+      "required": true
+    }
+  }
+}

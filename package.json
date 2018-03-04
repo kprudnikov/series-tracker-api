@@ -1,0 +1,33 @@
+{
+  "name": "series-tracker-api",
+  "version": "1.0.0",
+  "description": "Backend part for the series tracker application",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "npm test",
+    "start.local": "./node_modules/.bin/nodemon --debug --inspect -r dotenv/config . dotenv_config_path=env/.local",
+    "start": "./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kprudnikov/series-tracker-api.git"
+  },
+  "author": "kprudnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kprudnikov/series-tracker-api/issues"
+  },
+  "homepage": "https://github.com/kprudnikov/series-tracker-api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.205.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.8",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "nodemon": "^1.17.1"
+  }
+}
